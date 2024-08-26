@@ -9,7 +9,7 @@ const circlePerimeter = 2 * Math.PI * radius
 console.log(circlePerimeter.toFixed(2))
 
 /**
- * Testes exemplo:
- * Raio = 2
- * Resultado esperado = 12.56637061436
+ * Testes de exemplo:
+ * Input = 2
+ * Res = 12.56637061436
  */
