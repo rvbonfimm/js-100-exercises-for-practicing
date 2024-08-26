@@ -5,9 +5,8 @@ const promptSync = require('prompt-sync')
 const prompt = promptSync({ sigint: true })
 
 const radius = Number(prompt('Qual o raio? '))
-const PI = 3.14159265359
-const circlePerimeter = 2 * PI * radius
-console.log(circlePerimeter)
+const circlePerimeter = 2 * Math.PI * radius
+console.log(circlePerimeter.toFixed(2))
 
 /**
  * Testes exemplo:
