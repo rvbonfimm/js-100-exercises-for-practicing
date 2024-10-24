@@ -10,9 +10,9 @@
 const promptSync = require('prompt-sync')
 const prompt = promptSync({ sigint: true })
 
-const a = prompt('Valor para a: ')
-const b = prompt('Valor para b: ')
-const c = prompt('Valor para c: ')
+const a = parseFloat(prompt('Valor para a: '))
+const b = parseFloat(prompt('Valor para b: '))
+const c = parseFloat(prompt('Valor para c: '))
 const delta = Math.pow(b, 2) - 4 * a * c
 
 console.log(`Delta: ${delta}`)
